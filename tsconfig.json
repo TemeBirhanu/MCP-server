@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "rootDir": "./src",
+    "target": "ES6", 
+    "module": "NodeNext", 
+    "esModuleInterop": true,
+    "moduleResolution": "nodenext",  // Add this option for better module resolution
+    "strict": true
+  },
+  "include": ["src/**/*.ts"]
+}
